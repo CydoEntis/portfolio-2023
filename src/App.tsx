@@ -10,24 +10,26 @@ function App() {
           <h3>cody-stine</h3>
           <RiMenu5Fill className="text-2xl" />
         </div>
-        <div className="p-5 text-white">
-          <p className="text-[18px] text-[#f92672]">
-            <span className="text-[#66d9ef]">Hi there.</span> I am
-          </p>
-          <h1 className="text-[72px] leading-none">Cody Stine</h1>
-          <h3 className="text-[18px] text-[#a6e22e]">
-            &gt; Software Developer
-          </h3>
-        </div>
+        <div className="w-full h-full flex flex-col justify-center items-center border">
+          <div className="p-5 text-white">
+            <p className="text-[18px] text-[#f92672]">
+              <span className="text-[#66d9ef]">Hi there.</span> I am
+            </p>
+            <h1 className="text-[72px] leading-none">Cody Stine</h1>
+            <h3 className="text-[18px] text-[#a6e22e]">
+              &gt; Software Developer
+            </h3>
+          </div>
 
-        <div className="p-5 mb-24">
-          <p className="text-[#75715e]">// Find me on github.</p>
-          <p className="text-[#e6db74]">
-            <span className="text-[#ae81ff]">const</span>{" "}
-            <span className="text-white">githubLink</span>{" "}
-            <span className="text-[#f92672]">=</span>{" "}
-            "https://github.com/CydoEntis"
-          </p>
+          <div className="p-5 mb-24">
+            <p className="text-[#75715e]">// Find me on github.</p>
+            <p className="text-[#e6db74]">
+              <span className="text-[#ae81ff]">const</span>{" "}
+              <span className="text-white">githubLink</span>{" "}
+              <span className="text-[#f92672]">=</span>{" "}
+              "https://github.com/CydoEntis"
+            </p>
+          </div>
         </div>
       </div>
     </div>
